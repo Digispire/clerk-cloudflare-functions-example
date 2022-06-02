@@ -1,0 +1,43 @@
+{
+  "name": "digispire-clerk",
+  "version": "0.0.0",
+  "description": "Digispire test clerk + cloudflare workers JWT/Session verification",
+  "main": "index.js",
+  "author": "Digispire Group",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "demos/*",
+    "tests/*",
+    "examples/*",
+    "frontend/*",
+    "backend/*"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@clerk/edge": "^1.5.1",
+    "@cloudflare/workers-types": "^3.11.0",
+    "@manypkg/cli": "^0.19.1",
+    "@octokit/core": "^3.6.0",
+    "@playwright/test": "^1.21.1",
+    "@types/jest": "^27.4.1",
+    "esbuild": "^0.14.38",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "estrella": "^1.4.1",
+    "globby": "^13.1.1",
+    "lerna": "^4.0.0",
+    "npm": "^8.7.0",
+    "prettier": "^2.6.2",
+    "turbo": "^1.2.5",
+    "typescript": "^4.6.3",
+    "ultra-runner": "^3.10.5",
+    "wrangler": "^2.0.7"
+  },
+  "volta": {
+    "node": "16.14.2"
+  }
+}
